@@ -1,13 +1,25 @@
 {
   "name": "@tcpip147/electron-vue-titlebar",
-  "version": "1.0.5",
+  "version": "1.0.8",
   "files": [
     "index.js",
     "preload.js",
     "vue.js",
     "TitleBar.vue"
   ],
-  "type": "module",
+  "type": "commonjs",
+  "keywords": [
+    "electron",
+    "vue",
+    "titlebar",
+    "windows"
+  ],
+  "homepage": "https://github.com/tcpip147/electron-vue-titlebar",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tcpip147/electron-vue-titlebar.git"
+  },
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

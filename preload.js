@@ -1,4 +1,4 @@
-import { ipcRenderer } from "electron";
+const { ipcRenderer } = require("electron");
 
 const loadPreload = (contextBridge) => {
   contextBridge.exposeInMainWorld("electron-vue-titlebar", {
@@ -28,4 +28,4 @@ const loadPreload = (contextBridge) => {
     },
   });
 };
-export { loadPreload };
+module.exports = { loadPreload };

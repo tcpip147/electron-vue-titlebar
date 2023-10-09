@@ -1,3 +1,3 @@
-import TitleBar from "./TitleBar.vue";
+const TitleBar = require("./TitleBar.vue");
 
-export default TitleBar;
+module.exports = TitleBar;

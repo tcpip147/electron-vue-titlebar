@@ -1,4 +1,4 @@
-import { ipcMain } from "electron";
+const { ipcMain } = require("electron");
 
 const loadTitleBar = (win) => {
   ipcMain.handle("electron-vue-titlebar.minimize", (event, args) => {
@@ -28,4 +28,4 @@ const loadTitleBar = (win) => {
     win.webContents.send("electron-vue-titlebar.onUnmaximize");
   });
 };
-export { loadTitleBar };
+module.exports = { loadTitleBar };
