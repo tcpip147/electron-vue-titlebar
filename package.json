@@ -1,0 +1,24 @@
+{
+  "name": "@tcpip147/electron-vue-titlebar",
+  "version": "1.0.5",
+  "files": [
+    "index.js",
+    "preload.js",
+    "vue.js",
+    "TitleBar.vue"
+  ],
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "electron": "^25.6.0",
+    "vite": "^4.4.5"
+  }
+}
